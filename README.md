@@ -21,7 +21,7 @@ A calculator web service.
     
   The built executable can be then found in ./build/src as 'foo'. 
   
-  ###### Run Tests:
+  ###### **Run Tests:**
   
     $ make test
 
