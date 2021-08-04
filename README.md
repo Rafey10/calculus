@@ -12,7 +12,7 @@ A calculator web service.
   
 ## Usage 
 
-  - To Build the Project from the Project Directory:
+  ###### To Build the Project from the Project Directory:
 
     '''
     $ mkdir build && cd build
@@ -20,7 +20,7 @@ A calculator web service.
     $ make 
     '''
   
-  - Run Tests:
+  ###### Run Tests:
   
     '''
     $ make test
@@ -28,7 +28,7 @@ A calculator web service.
 
 The systemd '.service' file can be found in the 'systemd' folder of this repository. This must be stored at /etc/systemd/system as 'foo.service'. 
 
-  - Launching the executable as a continuously running systemd service:
+  ###### Launching the executable as a continuously running systemd service:
 
     '''
     # systemctl daemon-reload
@@ -36,13 +36,13 @@ The systemd '.service' file can be found in the 'systemd' folder of this reposit
     # systemctl enable foo.service
     '''
     
-  - Checking the Service Status
+  ###### Checking the Service Status
 
     '''
     # systemctl status foo.service
     '''
     
-  - Stopping the Service:
+  ###### Stopping the Service:
   
     '''
     # systemctl stop foo.service
