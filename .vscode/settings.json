@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "pofix-stack.h": "c"
+    },
+    "cmake.configureOnOpen": false
+}
