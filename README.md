@@ -26,7 +26,7 @@ A calculator web service.
   
   The systemd '.service' file can be found in the 'systemd' folder of this repository. This must be stored at /etc/systemd/system as 'foo.service'. 
   
-  ##### Launching the executable as a continuously running systemd service:
+  ###### Launching the executable as a continuously running systemd service:
 
     # systemctl daemon-reload
     # systemctl start foo.service
