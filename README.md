@@ -4,7 +4,7 @@ A calculator web service.
 
 ## Dependencies
 
-  - GNU Make 
+  - GNU gcc & Make 
   - CMake 
   - Check - Unit Testing Framework for C
   - NGINX
