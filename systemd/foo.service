@@ -1,0 +1,11 @@
+[Unit]
+Description=starts the calculator
+Wants=foo.service
+
+[Service]
+User=root
+ExecStart=/home/ubuntu/calculus/build/src/foo
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
