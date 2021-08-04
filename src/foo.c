@@ -120,21 +120,21 @@ int main(int argc, char** argv, char** env) {
 
 			char parsed[3*strlen(dec)];
 
-    		for (i = 0, j = 0; i < strlen(dec); i++, j++){
-        		if (dec[i] == '*' || dec[i] == '+' || dec[i] == '-' || 
-            		dec[i] == '/' || dec[i] == '%' || dec[i] == '(' ||
-            		dec[i] == ')'){
+    			for (i = 0, j = 0; i < strlen(dec); i++, j++){
+        			if (dec[i] == '*' || dec[i] == '+' || dec[i] == '-' || 
+            				dec[i] == '/' || dec[i] == '%' || dec[i] == '(' ||
+            				dec[i] == ')'){
 						parsed[j++] = ' ';
 						parsed[j++] = dec[i];
 						parsed[j] = ' '; 
-            	} else if (dec[i] == ' '){
-                    	parsed[j] = ' ';
-            	} else {
-                		parsed[j] = dec[i];
-            	}
-    		}
+            			} else if (dec[i] == ' '){
+                    				parsed[j] = ' ';
+            			} else {
+                				parsed[j] = dec[i];
+            			}
+    			}
     
-    		printf("parsed: '%s'\n", parsed);
+    			printf("parsed: '%s'\n", parsed);
 			/*END code to parse query string*/
 
 			int rc;
