@@ -49,6 +49,7 @@ A calculator web service.
   
   The NGINX Web Server Configuration file can be found in the 'nginx' folder of this repository.
   This must be stored as 'default' at the location /etc/nginx/sites-available.
+  The IPv4 Address in this file must be the private IPv4 Address of the Amazon EC2 instance.
   This allows the server listening at port 80 (HTTP) to redirect traffic to port 8080 which the foo program uses. 
   
   ###### Starting NGINX:
